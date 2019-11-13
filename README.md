@@ -14,6 +14,6 @@ Prerequisites
 3. Go to project folder /rss-feed and start local web server 
 	* php yii serve --port=8888
 4. In web browser open http://localhost:8888 There is 3 pages:
-	* Login
-	* Register
-	* Feed
+	* Login - http://localhost:8888/index.php?r=site%2Flogin
+	* Register - http://localhost:8888/index.php?r=register
+	* Feed - http://localhost:8888/
