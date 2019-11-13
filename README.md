@@ -9,7 +9,7 @@ Prerequisites
 1. Create basic Yii2 project
 	composer create-project --prefer-dist yiisoft/yii2-app-basic rss-feed
 2. Overwrite project folders with folders from archive
-	* rss-feed/controllers
+  * rss-feed/controllers
   * rss-feed/models 
   * rss-feed/views
 3. Go to project folder /rss-feed and start local web server 
