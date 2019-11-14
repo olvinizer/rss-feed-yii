@@ -35,7 +35,7 @@ $this->registerLinkTag([
             <div>
                 <h4><a href="<?php echo (string)$entry->link['href']; ?>"><?php echo (string)$entry->title; ?></a></h4>
                 <p><?php echo (string)$entry->summary; ?></p>
-                <small><a href="<?php echo (string)$entry->author->url; ?>"><?php echo (string)$entry->author->name; ?></a>
+                <small><a href="<?php echo (string)$entry->author->uri; ?>"><?php echo (string)$entry->author->name; ?></a>
                     <?php echo date('d.m.Y H:i', strtotime((string)$entry->updated)); ?>
                 </small>
             </div><br><br>
